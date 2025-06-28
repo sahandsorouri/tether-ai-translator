@@ -1,7 +1,27 @@
 # 🧠 Tether AI Translator
 
 **Private. Sub-Second. Everywhere.**  
-Built by **Sahand Sorouri**  
+Built by **Sahand Sorouri**
+
+---
+
+## 📚 Table of Contents
+
+1. [Introduction](#📘-introduction)  
+2. [Problem & Market Opportunity](#📊-problem--market-opportunity)  
+3. [Personas](#🧍-personas)  
+4. [Competitive Landscape](#🥊-competitive-landscape)  
+5. [Core Features](#✨-core-features)  
+6. [Technical Architecture](#⚙️-technical-architecture)  
+7. [APIs / Inputs & Outputs](#🔌-apis--inputs--outputs)  
+8. [User Flows](#🧭-tentative-user-flows)  
+9. [Development Lifecycle](#🧪-development-lifecycle)  
+10. [Product Roadmap](#🛣️-product-roadmap)  
+11. [Metrics](#📈-metrics)  
+12. [Risk Management](#🧯-risks--mitigations)  
+13. [MVP Exit Criteria](#✅-mvp-ga-exit-criteria)  
+14. [Links](#🔗-links)  
+15. [Appendix](#📎-appendix)
 
 ---
 
@@ -21,12 +41,12 @@ Unlike cloud services, Tether runs fully on-device, keeping all user data local.
 
 ## 📊 Problem & Market Opportunity
 
-**Pain Points:**
+### Pain Points
 1. **Data Leak Risk** – 71% avoid cloud-based translators for sensitive content (IPSOS 2024)
 2. **No-Signal Zones** – 1 in 3 report coverage issues (GSMA 2023)
 3. **Slow Cloud Latency** – Cloud APIs average 2.4s, not viable for real-time use
 
-**Market Potential:**
+### Market Potential
 
 | Segment | Users | ARPU | Annual Revenue |
 |--------|-------|------|----------------|
@@ -106,6 +126,10 @@ Requires secure Hindi ↔ English real-time translation during consultations wit
 - XChaCha20-Poly1305 at rest
 - Encrypted P2P Hyperswarm updates
 
+**Performance:**
+- Peak memory RSS: 180MB (Pixel 6), 165MB (iPhone 13)
+- Battery: <4% drain per 10-minute call
+
 ---
 
 ## 🔌 APIs / Inputs & Outputs
@@ -159,6 +183,13 @@ Requires secure Hindi ↔ English real-time translation during consultations wit
 | Pilot | 50 real users, MAU & feedback loop |
 | Launch | Store release, Tier-1 support, SLA |
 
+**Quality Gates:**
+- Functional: All features acceptance tested
+- Performance: <1.5s p99 latency
+- Compliance: GDPR, UAE PDPL ready
+- Privacy: Data never leaves device
+- Feedback: CSAT ≥80%
+
 ---
 
 ## 🛣️ Product Roadmap
@@ -170,6 +201,12 @@ Requires secure Hindi ↔ English real-time translation during consultations wit
 | Q+2 | Enterprise tier | 10 pilot companies |
 | Q+3 | Domain-specific NMT (legal/medical) | BLEU +10, premium uptake 8% |
 | Q+4 | Mac/Win desktop + sync | DAU/MAU > 45% |
+
+Roadmap Themes:
+- Scale language coverage
+- Monetize enterprise
+- Deepen domain value
+- Expand platform footprint
 
 ---
 
@@ -211,9 +248,18 @@ Requires secure Hindi ↔ English real-time translation during consultations wit
 
 ## 🔗 Links
 
-- **Prototype**: https://preview--verbal-voyage-interpreter.lovable.app/  
+- **Prototype**: https://preview--verbal-voyage-interpreter.lovable.app  
 - **Runtime Docs**: https://docs.pears.com  
 - **Holepunch Bare**: https://github.com/holepunchto/bare  
-- **By**: Sahand Sorouri | sahand.sorouri@gmail.com
+- **Author**: Sahand Sorouri | sahand.sorouri@gmail.com
+
+---
+
+## 📎 Appendix
+
+For further technical specifications, flowcharts, UX samples, and additional detail on architecture and personas, please refer to the following PDF documents located in the same folder as this `README.md` file:
+
+- [`Features-Document.pdf`](./Features-Document.pdf)  
+- [`Product-Slide-Deck.pdf`](./Product-Slide-Deck.pdf)
 
 ---
