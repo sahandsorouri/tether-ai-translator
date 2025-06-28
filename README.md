@@ -7,21 +7,21 @@ Built by **Sahand Sorouri**
 
 ## 📚 Table of Contents
 
-1. [Introduction](#📘-introduction)  
-2. [Problem & Market Opportunity](#📊-problem--market-opportunity)  
-3. [Personas](#🧍-personas)  
-4. [Competitive Landscape](#🥊-competitive-landscape)  
-5. [Core Features](#✨-core-features)  
-6. [Technical Architecture](#⚙️-technical-architecture)  
-7. [APIs / Inputs & Outputs](#🔌-apis--inputs--outputs)  
-8. [User Flows](#🧭-tentative-user-flows)  
-9. [Development Lifecycle](#🧪-development-lifecycle)  
-10. [Product Roadmap](#🛣️-product-roadmap)  
-11. [Metrics](#📈-metrics)  
-12. [Risk Management](#🧯-risks--mitigations)  
-13. [MVP Exit Criteria](#✅-mvp-ga-exit-criteria)  
-14. [Links](#🔗-links)  
-15. [Appendix](#📎-appendix)
+1. [Introduction](#-introduction)  
+2. [Problem & Market Opportunity](#-problem--market-opportunity)  
+3. [Personas](#-personas)  
+4. [Competitive Landscape](#-competitive-landscape)  
+5. [Core Features](#-core-features)  
+6. [Technical Architecture](#-technical-architecture)  
+7. [APIs / Inputs & Outputs](#-apis--inputs--outputs)  
+8. [User Flows](#-tentative-user-flows)  
+9. [Development Lifecycle](#-development-lifecycle)  
+10. [Product Roadmap](#-product-roadmap)  
+11. [Metrics](#-metrics)  
+12. [Risk Management](#-risks--mitigations)  
+13. [MVP Exit Criteria](#-mvp-ga-exit-criteria)  
+14. [Links](#-links)  
+15. [Appendix](#-appendix)
 
 ---
 
